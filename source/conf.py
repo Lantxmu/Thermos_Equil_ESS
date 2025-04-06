@@ -34,7 +34,7 @@ html_theme_options = {
     'navigation_depth': 4,
     'collapse_navigation': False,
 }
-html_static_path = '_static'
+html_static_path = ['_static']  # 必须使用列表形式
 
 mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 myst_enable_extensions = [
