@@ -1,1 +1,4 @@
- build/
+echo "build/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo "__pycache__/" >> .gitignorebuild/
+*.pyc

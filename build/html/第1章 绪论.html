@@ -21,7 +21,7 @@
     <link rel="index" title="索引" href="genindex.html" />
     <link rel="search" title="搜索" href="search.html" />
     <link rel="next" title="&lt;no title&gt;" href="%E7%AC%AC2%E7%AB%A0%20%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%8A%9F%E3%80%81%E7%83%AD%E9%87%8F%E4%B8%8E%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6.html" />
-    <link rel="prev" title="&lt;no title&gt;" href="%E5%89%8D%E8%A8%80.html" /> 
+    <link rel="prev" title="版权信息与说明" href="%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF%E4%B8%8E%E8%AF%B4%E6%98%8E.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -45,8 +45,12 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="导航菜单">
               <p class="caption" role="heading"><span class="caption-text">目录:</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF%E4%B8%8E%E8%AF%B4%E6%98%8E.html">版权信息与说明</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">第 1 章 绪论</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#id2">1.1 大世界，小原子</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">1.2 理想气体定律</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">1.3 系统、环境与状态方程</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id5">专栏 1 数学间奏曲：偏导数与状态方程</a></li>
 </ul>
 </li>
 </ul>
@@ -88,7 +92,7 @@
 <p>化学家研究原子、离子和分子，旨在通过原子层面的知识解释物质的性质并预测化合物的合成。虽然热力学是化学学术课程中的核心内容，但它关注的是宏观系统，即大量物质，而非少数分子。物质存在三种相态：固态、液态和气态，它们在单位体积内粒子（原子、分子、离子）的数量、粒子之间的距离与相互作用以及其空间排列和分布上存在差异（见图1.1）。</p>
 <p><img alt="图 1.1 最常见的三种物质相态：固态、液态和气态" src="_images/fig_1.1.png" /></p>
 <blockquote>
-<div><p>图 1.1 最常见的三种物质相态：固态、液态和气态</p>
+<div><p><strong>图 1.1</strong> 最常见的三种物质相态：固态、液态和气态</p>
 </div></blockquote>
 <p>在气体中，分子之间距离遥远，在空间中随机运动。因此，气体是均匀的、流动的且可压缩的。此外，对于理想气体，粒子的性质和相互作用在宏观层面上可以忽略不计。液体中，粒子彼此靠近，但可相对自由移动，因此液体是流体，但可压缩性较低。而在固体中，组成的原子、离子或分子通常彼此接近并处于固定位置。此外，粒子的性质决定了固体的物理和化学特性。</p>
 <p>单质，即具有均匀且明确化学成分的物质，可根据外部条件（温度、压力）的差异以固态、液态或气态形式存在。例如，在地球表面，H<sub>2</sub>O（水）可能以固体（冰）、液体（水）或气体（水蒸气）的形式存在。同一相态中可能包含多种物质，例如空气由氮气、氧气、二氧化碳等组成。
@@ -98,32 +102,38 @@
 p=\frac{F}{A}\tag{1.1}
 $$</p>
 <p>其中，F 为力（单位：牛顿，N），A 为面积（单位：平方米，m²）。气体中的压力在所有方向上均等，因此它是一个标量。压力的单位为 N/m² 或帕斯卡（Pa，国际单位制单位），但通常还使用其他单位（见表1.1）。</p>
-<table class="docutils align-default">
+<table border="1" class="docutils">
 <thead>
-<tr class="row-odd"><th class="head"><p>单位</p></th>
-<th class="head"><p>换算关系</p></th>
+<tr>
+<th>单位</th>
+<th>换算关系</th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>1 Pa</p></td>
-<td><p>1 N·m⁻²</p></td>
+<tr>
+<td>1 Pa</td>
+<td>1 N·m⁻²</td>
 </tr>
-<tr class="row-odd"><td><p>1 巴（bar）</p></td>
-<td><p>10⁵ Pa</p></td>
+<tr>
+<td>1 巴（bar）</td>
+<td>10⁵ Pa</td>
 </tr>
-<tr class="row-even"><td><p>1 毫米汞柱（mm Hg）</p></td>
-<td><p>133.32 Pa</p></td>
+<tr>
+<td>1 毫米汞柱（mm Hg）</td>
+<td>133.32 Pa</td>
 </tr>
-<tr class="row-odd"><td><p>1 托（torricille or torr）</p></td>
-<td><p>133.32 Pa</p></td>
+<tr>
+<td>1 托（torricille or torr）</td>
+<td>133.32 Pa</td>
 </tr>
-<tr class="row-even"><td><p>1 个大气压（atm）</p></td>
-<td><p>101.325 Pa</p></td>
+<tr>
+<td>1 个大气压（atm）</td>
+<td>101.325 Pa</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
-<div><p>表 1.1 压力单位与其对照国际标准单位Pa的换算关系</p>
+<div><p><strong>表 1.1</strong> 压力单位与其对照国际标准单位Pa的换算关系</p>
 </div></blockquote>
 <p>由于气体分子之间存在大量空间（见图1.1），且相互作用存在限制，因此不同成分的气体能够很好地混合。如果气体之间没有发生反应，气体混合物的总压力是混合物中各成分气体的分压之和。某气体 A 的<strong>分压</strong>（partial pressure）（<em>p</em><sub>A</sub>）是指当气体混合物中的某一种组分在相同的温度下占据气体混合物相同的体积时该组分所形成的压力。<strong>道尔顿定律</strong>（Dalton’s Law）表明，对于气体 A、B、C 的混合物，总压力<em>p</em><sub>tot</sub>为各气体分压的总和。</p>
 <p>$$
@@ -138,13 +148,101 @@ $$</p>
 <p>在热力学中应使用此开尔文温标。</p>
 <p>定义了压力（<em>p</em>）和温度（<em>T</em>）后，我们可以定义两个参考状态：标准温度和压力（STP）指压力为 1 bar，温度为 273.15 K（0.0 °C）；标准环境温度和压力（SATP）指温度为 298.15 K（25 °C），压力为 1 bar（1 bar = 105 Pa）。</p>
 </section>
+<section id="id3">
+<h2>1.2 理想气体定律<a class="headerlink" href="#id3" title="Link to this heading"></a></h2>
+<p>对气体物理性质的实验研究产生了一些经验定律，这些定律最终被结合成我们今天所称的理想气体定律。波义尔（1627–1691）研究了在恒温下，一定数量气体的压力与体积之间的关系，并观察到压力与体积的乘积是常数。波义尔定律（Boyle’s Law）指出，在温度恒定的情况下，气体的体积（<em>V</em>）与压力（<em>p</em>）成反比：</p>
+<p>$$
+V\propto \frac{1}{p}\tag{1.4a}
+$$</p>
+<p>其中∝是正比例符号。式1.4a也可写成：</p>
+<p>$$
+p\cdot V=常数\tag{1.4b}
+$$</p>
+<p>之后，查理（1746–1823）的研究表明，在恒定压力（<em>p</em>）下，给定数量气体的体积（<em>V</em>）与其绝对温度（<em>T</em>）成正比。<strong>查理定律</strong>（Charles’s law）指出：</p>
+<p>$$
+V\propto T \tag{1.5a}
+$$</p>
+<p>或者，</p>
+<p>$$
+\frac{V}{T}=常数\tag{1.5b}
+$$</p>
+<p>接下来，阿伏伽德罗（1776–1856）研究了在恒定温度和压力下，体积（<em>V</em>）与气体的物质的量（以 mol 为单位，<em>n</em>）之间的关系。<strong>阿伏伽德罗定律</strong>（Avogrado’s law）指出：</p>
+<p>$$
+V\propto n\tag{1.6a}
+$$</p>
+<p>或者，
+$$
+\frac{V}{n}=常数\tag{1.6b}
+$$</p>
+<p>这三条气体定律可以结合在一起，因为体积（<em>V</em>）均出现在这三者中：</p>
+<p>$$
+V\propto \frac{nT}{p}\tag{1.7}
+$$</p>
+<p>通过引入比例常数（R），比例符号可以转化为等式：</p>
+<p>$$
+V= R\cdot\frac{nT}{p}\tag{1.8a}
+$$</p>
+<p>这个方程一般写作：</p>
+<p>$$
+pV= nRT\tag{1.8b}
+$$</p>
+<p>这就是著名的<strong>理想气体定律</strong>（ideal gas law）。R是普适气体常数，在国际单位制中，当n以 mol为单位表示时，R的值为8.314 J mol-¹ K-¹。需要注意的是，热力学数据通常以不同的单位提供（例如，压力可能以bar、atm或tor表示，而不是Pa；体积以升表示，而不是立方米）；此时，R的单位和值需要进行调整，以保持单位的一致性。例如，当R以L atm mol-¹ K-¹表示时，其值为0.0820568。</p>
+</section>
+<section id="id4">
+<h2>1.3 系统、环境与状态方程<a class="headerlink" href="#id4" title="Link to this heading"></a></h2>
+<p>系统是热力学中的一个核心概念。在对特定对象的研究中，我们所关注的对象被定义为系统，而其他一切——宇宙的其余部分——被定义为环境。系统可以通过虚拟边界或客观实在的边界（如容器的四壁）与环境分隔开。系统可以是溶液中的化学反应（例如方解石的溶解），也可以是你在专心阅读这些文字时，案上渐渐冷却的热咖啡，或是整个地球系统接受来自太阳的短波辐射并向周围的宇宙发射长波辐射。</p>
+<p>系统通过物质传递或通过热量或功的交换与环境相互作用（图1.2）。<strong>孤立系统</strong>（isolated system）不与环境交换热量、功或物质。<strong>封闭系统</strong>(closed system)不与环境交换物质，但可以与环境交换能量。<strong>开放系统</strong>(open system)则与环境交换物质，并可能交换能量（如热量或功）。如果温度保持恒定，系统的变化称为<strong>恒温过程</strong>（isothermal process）；如果压力保持恒定，则称为恒压过程（isobaric process）；如果体积保持恒定，则称为<strong>恒体积</strong>（isochoric process）或<strong>恒容</strong>（isovolumetric process）过程；如果没有热量交换，即在热隔离中发生的过程，则称为<strong>绝热过程</strong>(adiabatic process)（图1.3）<sup><u>注1</u></sup>。</p>
+<p><img alt="图1.2 开放系统与外界交换物质与能量；封闭系统与外界交换能量，但不交换物质；孤立系统既不从外界交换物质，也不从外界交换能量" src="_images/fig_1.2.png" /></p>
+<blockquote>
+<div><p><strong>图1.2</strong> 开放系统与外界交换物质与能量；封闭系统与外界交换能量，但不交换物质；孤立系统既不从外界交换物质，也不从外界交换能量</p>
+</div></blockquote>
+<p><img alt="图1.3 一个热力学系统（比如一种气体）中的恒温、恒压、恒容变化过程" src="_images/fig_1.3.png" /></p>
+<blockquote>
+<div><p><strong>图1.3</strong> 一个热力学系统（比如一种气体）中的恒温、恒压、恒容变化过程</p>
+</div></blockquote>
+<p>一个宏观系统的状态通过即状态变量来描述，如压力、温度、体积和物质的量。状态方程（equations of state）将系统的各个状态变量联系在一起。理想气体定律（式1.8a和式1.8b）是理想气体的状态方程。对于一mol的气体（n = 1），只需知道其中两个变量（<em>V、T</em>或<em>p</em>），系统的状态就可以完全确定。例如，在标准温度和压力（STP，0°C和1 bar）下，气体的体积为22.4 L。对于SATP条件（25°C和1 bar），理想气体的摩尔体积（<em>V</em><sub>m</sub>）约为24.5 L mol-¹。</p>
+<p>如果一个热力学变量不依赖于物质的数量，我们称其为<strong>强度变量</strong>（intensive variable）；而广延变量（extensive variable）则是可加的，即它们依赖于样本大小。在理想气体状态方程（式1.8a和式1.8b）中的四个变量中，<strong>p</strong>和<strong>T</strong>与气体的数量无关，因此是强度变量；而<em>V</em>和<em>n</em>与气体的数量成比例，因此是广延变量。在热力学中，广延变量的变化与相应的特定强度变量的变化相关，它们的乘积具有能量的维度，例如理想气体定律中的<em>pV</em>项。两个广延变量的比值可以是强度变量，例如密度（质量除以体积）。</p>
+<p>系统的能量通过状态方程与系统的所有其他可测量的变量相关联。热力学（thermodynamics）字面意思是“热的运动”，因为它描述了系统的能量是如何与可测量的变量相关的。如果系统的状态没有变化的趋势，即系统处于平衡状态，状态函数的值就与系统的路径无关。因此，状态函数的变化不依赖于从一个状态到另一个状态的途径，即它们是与路径无关的。本书的主题是热力学与平衡，重点研究系统状态之间的差异。在接下来的讨论中，我们会使用符号 Δ 来表示状态变量和函数的变化。</p>
+</section>
+<section id="id5">
+<h2>专栏 1 数学间奏曲：偏导数与状态方程<a class="headerlink" href="#id5" title="Link to this heading"></a></h2>
+<p>状态方程通常涉及多个变量。函数F(<em>x, y, z</em>)<strong>的全微分</strong>(total differential)定义为：</p>
+<p>$$
+\mathrm{d}F = \left( \frac{\partial F}{\partial x} \right)<em>{y,z} \mathrm{d}x + \left( \frac{\partial F}{\partial y} \right)</em>{x,z} \mathrm{d}y + \left( \frac{\partial F}{\partial z} \right)_{x,y} \mathrm{d}z\tag{1.9}
+$$</p>
+<p>其中，F的导数是分别对每个变量求导，同时保持其他变量不变。第一项$\left( \frac{\partial F}{\partial x} \right)_{y,z} \mathrm{d}x$是F对<em>x</em>的导数，仅对<em>x</em>进行求导，这是偏导数。这些偏导数能揭示状态变量之间的关系，并且常常用于正式定义一些基本属性，如比热容、可压缩性等。</p>
+<p>作为一个例子，假设我们要量化理想气体的压力与温度的关系，假设体积和分子数保持恒定，那么相关的偏导数是</p>
+<p>$$
+\left( \frac{\partial p}{\partial T} \right)_{V,n}
+$$</p>
+<p>我们从重新书写理想气体定律（式1.8a和1.8b）开始，将压力整理到方程的左侧：</p>
+<p>$$
+p= \frac{nRT}{V}
+$$</p>
+<p>接下来，我们在两边同时对温度T关于n和V求导，得到：</p>
+<p>$$
+\begin{align*}
+\left( \frac{\partial p}{\partial T} \right)_{V,,n}
+&amp;= \frac{\partial}{\partial T} \left( \frac{nRT}{V} \right) \
+&amp;= \frac{nR}{V} \frac{\partial}{\partial T} T \
+&amp;= \frac{nR}{V}
+\end{align*}\tag{1.10}
+$$</p>
+<p>这样，我们就推导出压力是如何随温度变化的，并揭示了<strong>盖-吕萨克定律</strong>（law of Guy-Lussac）：在给定质量和体积的条件下，压力与绝对温度成正比，即Δ<em>p</em>/Δ<em>T</em> = 常数。</p>
+<hr class="docutils" />
+<p><strong>注释</strong></p>
+<p>1 译者注：强度变量是不随物质量改变的变量，比如温度、密度、压强等；广延变量是随着物质量变化的变量，比如质量、体积、能量等。本书余下的脚注，除特殊注明，皆为译者所加。</p>
+<blockquote>
+<div><p>markdown+sphinx貌似不支持非标题的脚注引用，有什么好的办法吗？我在正文内使用了“注x”的方式，读者仍需Ctrl+F进行搜索，不太方便。</p>
+</div></blockquote>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="页脚">
-        <a href="%E5%89%8D%E8%A8%80.html" class="btn btn-neutral float-left" title="&lt;no title&gt;" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
+        <a href="%E7%89%88%E6%9D%83%E4%BF%A1%E6%81%AF%E4%B8%8E%E8%AF%B4%E6%98%8E.html" class="btn btn-neutral float-left" title="版权信息与说明" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> 上一页</a>
         <a href="%E7%AC%AC2%E7%AB%A0%20%E7%83%AD%E5%8A%9B%E5%AD%A6%E7%AC%AC%E4%B8%80%E5%AE%9A%E5%BE%8B%EF%BC%9A%E5%8A%9F%E3%80%81%E7%83%AD%E9%87%8F%E4%B8%8E%E5%8C%96%E5%AD%A6%E7%83%AD%E5%8A%9B%E5%AD%A6.html" class="btn btn-neutral float-right" title="&lt;no title&gt;" accesskey="n" rel="next">下一页 <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
