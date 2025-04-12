@@ -1,4 +1,4 @@
-project = 'TEESE'
+project = 'TEESS'
 copyright = '2025, Jack J. Middelburg and Lant'
 author = 'Jack J. Middelburg, Lant'
 release = 'v2.0'
